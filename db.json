@@ -1,0 +1,16 @@
+{
+
+  "places": [
+    {
+      "nom": "Bourgo Mall",
+      "latitude": "33.8172",
+      "longitude": "10.9709"
+    },
+    {
+      "nom": "ISET Djerba",
+      "latitude": "33.8188",
+      "longitude": "10.9735"
+    }
+  ]
+  
+}

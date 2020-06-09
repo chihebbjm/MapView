@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar color="secondary" class="toolbar">
+    <ion-buttons slot="start"> 
+  <ion-button (click)='goToHome()' slot="end"> 
+    <ion-icon name="arrow-back-circle-outline" style="margin-right: 5px;"></ion-icon>
+    <ion-label>Back</ion-label>
+  </ion-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button (click)='add_contact()' slot="start"> 
+        <ion-icon name="add-circle-outline" style="margin-right: 5px;"></ion-icon>
+        <ion-label>Contact</ion-label>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title style="text-align: center;">Contact</ion-title>
+  </ion-toolbar >
+
+
+</ion-header>
+
+<ion-content >
+  <div id="container"  style="margin-top: 50px">
+
+      
+
+    <ion-input class="input_style" type="text"  [(ngModel)]="frist_input_value" placeholder="Enter Frist Name"></ion-input>
+
+    <ion-input class="style_prenom" type="text"  [(ngModel)]="last_input_value"  placeholder="Enter Last Name"></ion-input>
+
+    <ion-item class="profession">
+      <ion-label>Profession</ion-label>
+      <ion-select value="brown" okText="Done" cancelText="Close" [(ngModel)]="profession" >
+        <ion-select-option value="dev">dev</ion-select-option>
+        <ion-select-option value="desginer">desginer</ion-select-option>
+        <ion-select-option value="prof">prof</ion-select-option>
+     
+      </ion-select>
+    </ion-item>
+
+   
+     
+     
+    
+
+    
+  </div>
+   
+</ion-content>

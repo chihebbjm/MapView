@@ -1,0 +1,14 @@
+{
+  "name": "App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "/tasks",
+      "proxyUrl": "https://todoschihebbjm.herokuapp.com/api"
+    }
+  ]
+}
+

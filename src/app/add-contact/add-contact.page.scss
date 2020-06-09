@@ -1,0 +1,48 @@
+#content{
+    background-color: white;
+}
+.input_style{
+background-color: #3fc5f0;
+text-align: center;
+width: 60%;
+height: 40px;
+-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+border-radius: 10px;
+margin-bottom: 10px; 
+margin-left: 80px;
+}
+
+.style_prenom{
+
+        margin-top: 20px;
+        background-color: #3fc5f0;
+        text-align: center;
+
+        width: 60%;
+        height: 40px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 10px;
+        margin-bottom: 10px; 
+        margin-left: 80px;
+        
+}
+.profession{
+    text-align: center;
+    margin: 30px;
+}
+
+.add_style{
+ 
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.add{
+   
+   text-align: right;
+}
+.munis{
+    margin-bottom: 15px;
+    text-align: left;
+}
